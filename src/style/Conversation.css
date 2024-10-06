@@ -1,0 +1,53 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  
+  /* width: 100%; */
+  height: 400px; /* Tamaño fijo para permitir el scroll */
+  overflow-y: auto; /* Asegurar el desplazamiento vertical */
+  border: 1px solid #ccc;
+}
+
+/* Estilo base para todos los mensajes */
+.mensaje {
+  max-width: 70%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 0.9em;
+  line-height: 1.4;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Mensajes entrantes */
+.mensaje-entrante {
+  align-self: flex-start;
+  background-color: #f0f0f0; /* Gris claro para los mensajes recibidos */
+  color: #333;
+}
+
+/* Mensajes salientes */
+.mensaje-saliente {
+  align-self: flex-end;
+  background-color: #d1e7ff; /* Azul suave para los mensajes enviados */
+  color: #000;
+
+}
+
+.linea-no-leido {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+  margin: 10px 0;
+}
+
+
+/* Opcional: Ajustes para móvil */
+@media (max-width: 600px) {
+  .mensaje {
+    max-width: 85%;
+  }
+}

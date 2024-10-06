@@ -1,0 +1,125 @@
+/* Settings.css */
+
+.settings-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.settings-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #4a4a4a;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 5px;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-right: 50px;
+  border: 2px solid #4caf50;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  width: 250px;
+  transition: border 0.3s;
+}
+
+.profile-input:focus {
+  border: 2px solid #4caf50;
+}
+
+.save-profile-btn {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.save-profile-btn:hover {
+  background-color: #45a049;
+}
+
+.settings-options {
+  margin-top: 20px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.option-label {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.language-select {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  transition: border 0.3s;
+}
+
+.language-select:hover {
+  border: 2px solid #4caf50;
+}
+
+.account-section {
+  margin-top: 20px;
+}
+
+.delete-account-btn {
+  padding: 10px 15px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete-account-btn:hover {
+  background-color: #e53935;
+}
